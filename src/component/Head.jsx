@@ -21,12 +21,22 @@ const Head = () => {
     background-color: #063858;
     padding: 2rem;
     ${mobile({
-      height: "7%",
+      height: "6%",
     })}
    ${smallMobile({
-      height: "8.5%",
+      height: "7.5%",
     })}
   `;
+
+  const Div = styled.div`
+    display: none;
+    ${mobile({
+      display:"inline-block",
+    })}
+   ${smallMobile({
+      display:"inline-block",
+    })}
+  `
 
   const Name = styled.span`
     color: #f8faf8;
@@ -49,7 +59,7 @@ const Head = () => {
 
   return (
     <Head >
-      <div/>
+      <Div/>
       <Name>{data.user?.displayName}</Name>
       <Feature>
         <span>

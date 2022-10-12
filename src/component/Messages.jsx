@@ -34,10 +34,10 @@ const Messages = () => {
       display: none;
     }
     ${smallMobile({
-    height:"78.5%"
+    height:"75.5%"
    })}
        ${mobile({
-    height:"88%"
+    height:"83%"
    })}
   `;
   

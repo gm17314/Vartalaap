@@ -67,7 +67,7 @@ const Navbar = () => {
     }
     ${mobile({
       width: "15%",
-      height: "3rem",
+      height: "2.2rem",
     })}
   `;
   const User = styled.span`

@@ -73,7 +73,7 @@ const Textarea = () => {
    
     const Send=styled(Flex)`
     width: 30%;
-    height: 100%;
+    height: 90%;
     color: rgba(49, 53, 51, 0.712);
     cursor: pointer;
     font-size:3rem;

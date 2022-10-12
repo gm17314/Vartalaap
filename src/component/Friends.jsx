@@ -49,10 +49,10 @@ const Friends = () => {
     }
     background-color: #06395822;
     ${smallMobile({
-      height: "88%",
+      height: "80%",
     })}
     ${mobile({
-      height: "90%",
+      height: "80%",
     })}
   `;
   const FriendList = styled(Flex)`
