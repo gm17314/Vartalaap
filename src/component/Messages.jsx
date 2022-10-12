@@ -33,12 +33,12 @@ const Messages = () => {
     &::-webkit-scrollbar {
       display: none;
     }
-    ${smallMobile({
+    /* ${smallMobile({
     height:"75.5%"
    })}
        ${mobile({
     height:"83%"
-   })}
+   })} */
   `;
   
   return (
