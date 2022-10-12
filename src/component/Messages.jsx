@@ -28,6 +28,7 @@ const Messages = () => {
     flex-direction: column;
     width: 100%;
     height: 74.5%;
+    background-color: red;
     padding: 1rem;
     overflow: auto;
     &::-webkit-scrollbar {
