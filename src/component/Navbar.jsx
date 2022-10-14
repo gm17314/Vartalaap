@@ -40,10 +40,11 @@ const Navbar = () => {
   `;
   const Image = styled.img`
     border-radius: 50%;
-    width: 30%;
+    width: 27.5%;
     height: 50%;
     ${mobile({
-      width: "17%",
+      height:"35%",
+      width: "17%"
     })}
   `;
   const Button = styled.button`

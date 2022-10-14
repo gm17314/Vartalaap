@@ -6,6 +6,7 @@ import { db } from "../firebase";
 import Message from "./Message";
 import { mobile } from "./Responsive";
 import { smallMobile } from "./Responsive";
+import { MidMobile } from "./Responsive";
 
 const Messages = () => {
   const [messages, setMessages] = useState([]);
@@ -28,18 +29,21 @@ const Messages = () => {
     flex-direction: column;
     width: 100%;
     height: 74.5%;
-    background-color: red;
+    /* background-color: red; */
     padding: 1rem;
     overflow: auto;
     &::-webkit-scrollbar {
       display: none;
     }
     /* ${smallMobile({
-    height:"75.5%"
-   })}
+    height:"80%"
+   })}*/
        ${mobile({
-    height:"83%"
-   })} */
+    height:"89%"
+   })} 
+          ${MidMobile({
+    height:"89%"
+   })}
   `;
   
   return (

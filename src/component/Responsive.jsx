@@ -15,3 +15,11 @@ export const smallMobile=(props)=>{
 
     `
 }
+export const MidMobile=(props)=>{
+    return css`
+        @media (max-width:450px){
+            ${props}
+        }
+
+    `
+}

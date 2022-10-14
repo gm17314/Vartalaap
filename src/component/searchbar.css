@@ -61,8 +61,11 @@
     width: 10%;
     height:7rem;
   }
+  .inputarea{height: 9rem;}
 }
 .friendlist{
   padding:1rem;
   padding-top:1.2rem;
+
 }
+

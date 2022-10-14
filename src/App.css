@@ -53,7 +53,7 @@ body {
   html {
       font-size: 5.3px;
   }
-  /* .Textarea{height: 11%;} */
+  .Textarea{height: 11%;}
 }
 @media screen and (min-width: 721px) and (max-width:900px) {
   html {
@@ -81,6 +81,7 @@ body {
   html {
       font-size: 4.7px;
   }
+  .Textarea{height: 4.5%;}
   /* .Textarea{height: 11%;} */
   .active{opacity: 1 !important;}
   .not-active{display: none !important;}
@@ -90,7 +91,7 @@ body {
       font-size: 4.5px;
   }
   /* .Textarea{height: 11%;} */
-  /* .Textarea{height: 6%;} */
+  .Textarea{height: 4.5%;}
 }
 /* For small screen mobile */
 @media screen and (max-width: 360px) {

@@ -15,7 +15,7 @@ const Home = () => {
   `;
   const UserInterface = styled(Flex)`
     width: 78%;
-    height: 83%;
+    height: 83vh;
     overflow: hidden;
     position: relative;
     justify-content: flex-start;
@@ -24,12 +24,12 @@ const Home = () => {
     background-color: rgba(255, 255, 255, 0.28);
     border-radius: 12px;
     ${mobile({
-      height: "100%",
+      height: "80vh",
       width: "100%",
       borderRadius:"0"
     })}
     ${smallMobile({
-      height: "100%",
+      height: "100vh",
       width: "100%",
       borderRadius:"0"
     })}

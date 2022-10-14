@@ -23,9 +23,9 @@ const Head = () => {
     ${mobile({
       height: "6.5%",
     })}
-   ${smallMobile({
+   /* ${smallMobile({
       height: "8%",
-    })}
+    })} */
   `;
 
   const Div = styled.div`
