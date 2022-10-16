@@ -52,7 +52,7 @@ const Friends = () => {
       height: "80%",
     })} */
     ${mobile({
-      height: "86%",
+      height: "87%",
     })}
   `;
   const FriendList = styled(Flex)`

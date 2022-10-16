@@ -43,7 +43,7 @@ const Navbar = () => {
     width: 27.5%;
     height: 50%;
     ${mobile({
-      height:"35%",
+      height:"4rem",
       width: "17%"
     })}
   `;
