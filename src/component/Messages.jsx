@@ -39,10 +39,10 @@ const Messages = () => {
     height:"80%"
    })}*/
        ${mobile({
-    height:"89%"
+    height:"88.6%"
    })} 
           ${MidMobile({
-    height:"89%"
+    height:"88.6%"
    })}
   `;
   

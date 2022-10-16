@@ -21,7 +21,7 @@ const Head = () => {
     background-color: #063858;
     padding: 2rem;
     ${mobile({
-      height: "6.5%",
+      height: "6.3%",
     })}
    /* ${smallMobile({
       height: "8%",

@@ -24,7 +24,7 @@ const Home = () => {
     background-color: rgba(255, 255, 255, 0.28);
     border-radius: 12px;
     ${mobile({
-      height: "80vh",
+      height: "100vh",
       width: "100%",
       borderRadius:"0"
     })}
